@@ -1,3 +1,5 @@
+// 设计和预览tab
+
 <template lang="pug">
 Form.ep-widget-form(
   ref='epForm'
@@ -5,7 +7,7 @@ Form.ep-widget-form(
   :model='model'
   :label-width='rootSchema.label.width'
   :label-position='rootSchema.label.position'
-  :class='`ep-mode-${mode}`'
+  :class='`ep-mode-${mode} abc`'
 )
   template(v-if='state.tab !== "design"')
     ep-widget-item(

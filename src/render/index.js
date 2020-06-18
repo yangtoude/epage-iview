@@ -1,3 +1,5 @@
+// 渲染器 -- 会传递给epage使用
+
 import Vue from 'vue'
 import Epage from 'epage'
 import FormRender from './index.vue'
